@@ -4,7 +4,15 @@ body{
     color: blueviolet;
 }
 h1{
-    color: rgb(111, 99, 180);
+    width: 300px;
+    margin: 40px auto;
+    padding: 30px;
+    border: 5px solid #e123e17d;
+    background-color: #d920d998;
+    color: rgb(255, 251, 251);
+    font-size: 300%;
+    text-align: center;
+    line-height: 1;
 }
 #container{
     width: 80%;
