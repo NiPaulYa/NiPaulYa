@@ -1,148 +1,105 @@
-@import url(normalize.css);
+@charset "utf-8";
+
 body{
-    background-color: antiquewhite;
-    color: blueviolet;
+    /*
+    background-color: rgb(252, 239, 223);
+    background-image: url(img/bg.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: 50px 70px;
+    */
+    background: rgb(252, 239, 223) url(img/bg.png) repeat-x;
+}
+a{
+    color: rgb(209, 52, 52);
+}
+a:hover{
+    color: #ff8774;
+    text-decoration: none;
+}
+a[target="_blank"]::after{
+    content: url(img/ico_blank.png);
+    margin-left: 5px;
+    vertical-align: middle;
+}
+a[target="mailto:"]::after{
+    content: url(img/ico_blank.png);
+    margin-left: 5px;
+    vertical-align: middle;
 }
 h1{
     width: 300px;
     margin: 40px auto;
     padding: 30px;
-    border: 5px solid #e123e17d;
-    background-color: #d920d998;
-    color: rgb(255, 251, 251);
+    border: 5px solid #94ddbd;
+    background-color: rgb(27, 161, 94);
+    color: rgb(255, 255, 255);
     font-size: 300%;
+    text-align: center;
     line-height: 1;
 }
-main{
-    width: 80%;
-    background-color: rgb(255, 255, 255);
-    margin: 0px auto;
-    padding: 40px 80px;
-    border: 1px solid #f6bb9e;
+h1{
+    border-radius: 50%;
+    text-shadow: 1px 1px 2px #307657;
+    box-shadow: 0 0 10px rgb(0,0,0,0.5);
+    background-image: linear-gradient(to bottom,#6fbb9a,#4a9d79);
+    font-family: 'Limelight',cursive;
 }
-
 h2{
     padding: 10px;
-margin-bottom: 30px;
-border: 1px dotted #94c8b1;
-border-left: 10px solid #e35bdc;
-color: #6fbb9a;
+    margin-bottom: 30px;
+    border: 1px dotted #81c58c;
+    border-left: 10px solid #d1e466;
+    color: rgb(42, 177, 42);
 }
-.round{
-    border-radius: 50%;
+
+.more{
+    text-align: right;
 }
-h1,header,nav,footer{
-    text-align: center;
+.more::after{
+    content: url(img/ico_arrow.png);
+    margin-left: 3px;
+    vertical-align: middle;
 }
+.h{
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px dotted #94d1b6;
+    border-left: 10px solid #ebfc7e;
+    border-radius: 5px 0 0 5px;
+}
+.h-sub span{
+    font-weight: normal;
+}
+.h-sub{
+    padding: 10px;
+    background-color: #fbf9cc;
+    color: #ff705b;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 2px #ffd0ad inset;
+}
+
 .menu li{
     list-style-type: none;
-    display: block;
-    padding: 0 10px;
+    /*
+    border: 1px solid #f00;
+    */
+    display: inline-block;
+    width: 180px;
+    margin: 0 10px;
 }
-
-
-
-
 .menu a{
     display: block;
     padding: 10px;
-    background: #6fbb9a;
+    background-color: #6fbb9a;
     border-radius: 8px;
     color: #fff;
     text-decoration: none;
 }
-.menu a:hover {
-    background: #9eddbb;
+.menu a:hover{
+    background: #90ddbb;
 }
-
-#contents{
-    width: 798px;
-    margin: 40px auto;
-    padding: 40px 80px;
-    border: 1px solid #f6bb9e;
-    background-color: #fff;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .imgL{
     float: left;
     margin-right: 20px;
@@ -151,11 +108,71 @@ h1,header,nav,footer{
     float: right;
     margin-left: 20px;
 }
-.clear {
+.img-round{
+    border-radius: 50%;
+}
+.clear{
     clear: both;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+section+section{
+    margin-top: 80px;
+}
+#contents > section+section{
+    margin-top: 80px;
+}
+header,nav,footer{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#contents{
+    width: 798x;
+    margin: 40px auto;
+    margin: 40px;
+    padding: 40px 80px;
+    border: 1px solid #9afaf2;
+    background-color: #fff;
+}
+
 .clearfix::after{
     content: "";
     display: block;
     clear: both;
 }
+
