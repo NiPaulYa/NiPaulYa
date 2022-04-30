@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-header,nav,footer,menu{
+header,nav,footer,menu,h5{
     text-align: center;
 }
 
@@ -41,6 +41,13 @@ h1{
         color: #ffffff
     
     
+    }
+    h5{
+        padding:20px;
+        margin-bottom: 1px;
+        font-size: 50px;
+        font-weight: 150;
+        color: #000000
     }
    .menu2 a{
     text-decoration: none;
@@ -96,5 +103,7 @@ section{
     color: #ffffff;
 
 }
-
+small{
+    font-size: 5px;
+}
     
