@@ -24,7 +24,7 @@ a[target="_blank"]::after{
     vertical-align: middle;
 }
 a[target="mailto:"]::after{
-    content: url(img/ico_blank.png);
+    content: url(img/ico_mail.png);
     margin-left: 5px;
     vertical-align: middle;
 }

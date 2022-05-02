@@ -80,9 +80,7 @@ h2{
 h1,header,footer,nav{
     text-align: center;
 }
-{
-text-shadow: 2px 1px 3px #333333;
-}
+
 
 
 a[href^="mailto:"]::after{
