@@ -1,6 +1,7 @@
 @charset "utf-8";
 
-header,nav,footer,menu,h5,{
+
+h5,header,footer,nav,menu{
     text-align: center;
 }
 
