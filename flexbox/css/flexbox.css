@@ -37,6 +37,7 @@ nav a:hover{
     justify-content: space-around;
     align-items: center;
     background-color: rgba(32, 32, 32, 0.959);
+    background-image: linear-gradient(rgba(109, 109, 109, 0.659), rgba(78, 78, 78, 0.706));
 }
 
 .title{
