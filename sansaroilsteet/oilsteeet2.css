@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+
+h5,header,footer,nav,menu,table{
+    text-align: center;
+}
+
+body{
+    background-color: #3a3a3a;
+    background-size: 1550px 230px;
+    color:rgb(25, 25, 25); 
+    margin: 100px;
+}
+h1{
+    color: aliceblue;
+    font-size: 60px;
+}
+.menu ul{
+    margin: 0px;
+}
+.menu{
+    text-align: left;
+    background-color: rgb(135, 51, 12);
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+}
+.menu li a{
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: aliceblue;
+    font-size: 20px;
+}
+.menu li a:hover{
+    background-color: rgb(118, 44, 10);
+    transition: background-color 1s linear, color 1s ease-in-out;
+}
+
+#b1 {
+    background-image: url(img/204245.jpg), url(paper.gif);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 100px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: 100;
+    background-size: 2000px 1200px;
+  }
+  #b2 {
+    background-image: url(img/金牛角.jpg), url(paper.gif) ;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 100;
+    background-size: 1950px 1100px;
+  }
+  #b3 {
+    background-image: url(img/冬瓜2號.jpg), url(paper.gif) ;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 100;
+    background-size: 2000px 1600px;
+  }
+  #b4 {
+    background-image: url(img/豆花.jpg), url(paper.gif) ;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 100;
+    background-size: 2000px 1600px;
+  }
+  #b5 {
+    background-image: url(img/豬血糕.jpg), url(paper.gif) ;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 100;
+    background-size: 2000px 1600px;
+  }
+  
