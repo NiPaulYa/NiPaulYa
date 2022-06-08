@@ -105,7 +105,7 @@ h1{
 	padding: 0px;;
 	/* 內有浮動元件時，需設overflow才會自動調整大小 */
   overflow:auto;
-  overflow: ;
+
 }
 
 #menu ul li {
